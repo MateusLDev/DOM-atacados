@@ -1,0 +1,256 @@
+@media screen and (max-width: 600px){
+    .container{
+        /* max-width: 290px; */
+        margin: 0 15px;
+    }
+
+    .banner .pre-title{
+        font-size: 25px;
+    }
+    
+    .banner .title{
+        font-size: 45px;
+    }
+    
+    .banner .sub-title{
+        font-size: 32px;
+    }
+
+    .counter .wrap{
+        margin: 0 10px;
+    }
+
+    .counter .wrap .count{
+        color: #fff;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    .counter .wrap .description{
+        font-size: 11px;
+        margin-top: 0;
+    } 
+
+    #videos{
+        flex-direction: column-reverse;
+    }
+
+    #videos .content{
+        margin-bottom: 50px;
+    }
+
+    #videos .content .title{
+        font-size: 31px;
+        margin-top: 0;
+    }
+
+    #videos .video-frame iframe{
+        height: 170px;
+        width: 290px;
+    }
+
+    #store .title{
+        font-size: 35px;
+    }
+
+    .store .round{
+        border-radius: 320px 0px 0px 0px;
+    }
+
+    #sobre{
+        flex-direction: column-reverse;
+    }
+
+    #sobre .about-image{
+        margin-bottom: -3px;
+    }
+
+    #sobre .about-image img{
+        width: 100%;
+    }
+
+    #sobre .content{
+        margin: 50px 15px;
+    }
+
+    #sobre .content .title{
+        font-size: 28px;
+    }
+
+    #informacao .round{
+        background-color: #08315A;
+        border-radius: 0 0px 90px 90px;
+        height: 20%;
+        padding: 80px 0 40px 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #informacao .cards{
+        padding: 0 15px;
+    }
+
+    #informacao h1.title{
+        display: block;
+    }
+
+    #informacao .locations{
+        flex-direction: column;
+        margin-top: 30px;
+        margin: 0 15px;
+    }
+
+    #informacao .locations .map img{
+        width: 100%;
+        margin-bottom: -3px;
+    }
+
+    #informacao .general-adress{
+        border-radius: 0 0 50px 0;
+        /* overflow: hidden; */
+        width: 100%;
+    }
+
+    #informacao .general-adress .adress{
+        border-radius: 0px 40px 0px 0px;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: -70px;
+        /* position: absolute; */
+    }
+
+    #informacao .general-adress .location{
+        display: flex;
+        margin-left: 10px;
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+
+    #informacao .general-adress .location-list{
+        padding-left: 21px;
+    }
+
+    #informacao .location-list .location-item{
+        font-size: 10px;
+    }
+
+    .store-list{
+        flex-direction: column;
+    }
+
+    #parceiros .title{
+        font-size: 31px;
+    }
+
+    #parceiros .slide-item img{
+        width: 80px;
+    }
+
+    #parceiros .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+
+    #footer{
+        justify-content: center;
+    }
+
+    #footer .text{
+        font-size: 9px;
+    }
+
+    #footer img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    #menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #menu .logo{
+        z-index: 1;
+    }
+
+    .menu-collapse{
+        display: block;
+        float: right;
+        z-index: 1;
+    }
+
+    .list-items{
+        /* z-index: 999; */
+        position: absolute;
+        top: -300px;
+        width: 100%;
+        left: -15px;
+        right: -15px;
+        height: 100%;
+        transition: .3s;
+    }
+
+    .open{
+        top: 64px;
+    }
+
+    .menu-list{
+        display: block;
+        background-color: #EAEFF6;
+        padding-left: 0;
+        height: 100%;
+    }
+
+    .menu-list .menu-item{
+        display: flex;
+        align-items: flex-start;
+        padding: 15px 0;
+    }
+
+    .menu-list .menu-link{
+        color: #012850;
+    }
+}
+
+@media screen and (min-width: 375px){
+    #videos .video-frame iframe{
+        height: 194px;
+        width: 345px;
+    }
+
+    #informacao .locations .map img{
+        width: 100%;
+    }
+
+    #informacao .general-adress .location{
+        margin-top: 30px;
+        min-width: 250px;
+    }
+
+    #informacao .location-list{
+        margin-bottom: 30px;
+    }
+
+    #informacao .location-list .location-item{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 425px){
+    #videos .video-frame iframe{
+        height: 222px;
+        width: 395px;
+    }
+
+    #informacao .locations .map img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #informacao .locations .map img{
+        width: 500px;
+    }
+}
